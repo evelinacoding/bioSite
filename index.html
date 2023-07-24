@@ -2,7 +2,10 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Landing Page</title>        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Landing Page</title>  
+        <link rel="stylesheet" href="css/index.css"> 
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=Fauna+One&display=swap" rel="stylesheet">   
     </head>
 
     <body>
@@ -14,19 +17,25 @@
             <a href="hobbies.html">Hobbies</a>  
         </nav>
 
-        <div>
-            <figure>
-                <img src="images/monks.JPG" alt= "Daniel with a monk.">
-                    <figcaption>Daniel with a monk in Tibet.</figcaption>
-            </figure>
-            <figure>
-                <img src="images/chinaclass.JPG" alt="Daniel teaching in China.">
-                    <figcaption>Daniel teaching English in China.</figcaption>
-            </figure>
-            <figure>
-                <img src="images/moremountains.JPG" alt="Daniel in the snowy mountains.">
-                    <figcaption>Daniel visiting the Himalayas.</figcaption>
-            </figure>
+        <div id="grid-gallery">
+            <div class="grid-item">
+                <figure>
+                    <img src="images/monks.JPG" alt= "Daniel with a monk." height="345" width="460">
+                        <figcaption>Daniel with a monk in Tibet.</figcaption>
+                </figure>
+            </div>
+            <div class="grid-item">
+                <figure>
+                    <img src="images/chinaclass.JPG" alt="Daniel teaching in China." height="345" width="460">
+                        <figcaption>Daniel teaching English in China.</figcaption>
+                </figure>
+            </div>
+            <div class="grid-item">
+                <figure>
+                    <img src="images/moremountains.JPG" alt="Daniel in the snowy mountains." height="345" width="460">
+                        <figcaption>Daniel visiting the Himalayas.</figcaption>
+                </figure>
+            </div>
         </div>
 
     </body>
